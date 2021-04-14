@@ -2,11 +2,11 @@ import React, { useContext } from 'react';
 import Container from 'react-bootstrap/Container';
 import Table from 'react-bootstrap/Table';
 import Row from 'react-bootstrap/Row';
-import EmployeeData from './EmployeeData';
-import viewEmployeeContext from '../utils/viewEmployeeContext ';
+// import EmployeeData from './EmployeeData';
+import ViewEmployeeContext from '../utils/ViewEmployeeContext';
 
 const TableEmployee = () => {
-    const { sortName } = useContext(viewEmployeeContext);
+    const {sortByName} = useContext(ViewEmployeeContext);
     return (
         <Container fluid className='Table'>
             <Row>
@@ -14,10 +14,10 @@ const TableEmployee = () => {
                     <thead>
                         <tr>
                             <th className='center'>Image</th>
-                            <th className='center' onClick={() => sortName('first')}>
+                            <th className='center' onClick={() => sortByName('first')}>
                                 First Name&nbsp;<i className='fas fa-sort'></i>
                             </th>
-                            <th className='center' onClick={() => sortName('last')}>
+                            <th className='center' onClick={() => sortByName('last')}>
                                 Last Name&nbsp;<i className='fas fa-sort'></i>
                             </th>
                             <th className='center'>Phone</th>
@@ -26,7 +26,7 @@ const TableEmployee = () => {
 
                         </tr>
                     </thead>
-                    <EmployeeData />
+                    {/* <EmployeeData /> */}
                 </Table>
             </Row>
         </Container>
