@@ -19,7 +19,7 @@ Employee Directory application provides the user with 20 random employees from t
 
 ## Installation Instructions
 
-Visit the deployed URL https://employee-directory-will.herokuapp.com/
+
 
 ## Usage Information
 
