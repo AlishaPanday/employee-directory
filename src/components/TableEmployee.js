@@ -2,13 +2,13 @@ import React, { useContext } from 'react';
 import Container from 'react-bootstrap/Container';
 import Table from 'react-bootstrap/Table';
 import Row from 'react-bootstrap/Row';
-// import EmployeeData from './EmployeeData';
+import EmployeeData from './EmployeeData';
 import ViewEmployeeContext from '../utils/ViewEmployeeContext';
 
 const TableEmployee = () => {
     const {sortByName} = useContext(ViewEmployeeContext);
     return (
-        <Container fluid className='Table'>
+        <Container fluid className='employeeTable'>
             <Row>
                 <Table responsive striped bordered hover variant="dark">
                     <thead>
@@ -26,7 +26,7 @@ const TableEmployee = () => {
 
                         </tr>
                     </thead>
-                    {/* <EmployeeData /> */}
+                    <EmployeeData />
                 </Table>
             </Row>
         </Container>

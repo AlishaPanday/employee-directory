@@ -4,10 +4,13 @@ import ViewEmployeeContext from '../utils/ViewEmployeeContext';
 
 
 const SearchBox = () => {
-    const {setSearchState} = useContext (ViewEmployeeContext);
+    const { setSearchEmployeeState } = useContext(ViewEmployeeContext);
     return (
-        <Form.Control type = 'search' placeholder = 'search by first name, last name or Phone'
-        onChange = {e => setSearchState(e.target.value)} />
+        <Form.Control
+            type='search'
+            placeholder='Search by first name, last name or Phone'
+            onChange={e => setSearchEmployeeState(e.target.value)}
+        />
     );
 };
 

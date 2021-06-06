@@ -3,10 +3,11 @@ import Row from 'react-bootstrap/Row';
 
 const FooterSection = () => {
     return (
-        <Row className = "footer">
+        <Row className = "footer fixed-bottom" fixed='bottom'>
             Created by &nbsp;
-            <a href = "https://github.com/AlishaPanday/employee-directory" target = "_blank">Alisha Panday</a> <br  />
-            Powered by &nbsp;
+            <a 
+                href = "https://github.com/AlishaPanday/employee-directory" target = "_blank">Alisha Panday</a> <br  />
+               
             <i className = 'fab fa-react'>React</i>
         </Row>
     );

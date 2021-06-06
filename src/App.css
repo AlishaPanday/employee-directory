@@ -1,28 +1,36 @@
-.App {
+* {
   text-align: center;
   justify-content: center;
-  display:block;
+  align-items: center;
+  vertical-align: middle;
 }
 
-.form {
-  padding: 5px;
+.headerText {
+  text-align: center;
+  padding-right: 5rem;
 }
 
-.Table {
+.jumbotron {
+  overflow: auto;
+  margin-bottom: 0 !important;
+}
+
+.employeeTable {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.headerSection{
+
+.center {
   text-align: center;
-  padding-right: 5rem;
+  vertical-align: middle !important;
 }
+
 .footer {
   position: fixed;
-  left: 0;
+  height: 3rem;
   bottom: 0;
   width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
+  background-color: grey;
+  text-align: center !important;
 }

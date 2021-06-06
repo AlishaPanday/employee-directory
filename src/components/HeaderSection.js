@@ -7,7 +7,7 @@ const HeaderSection = () => {
     return (
         <Navbar bg='navbar-dark bg-primary'>
             <Container fluid='md'>
-                <Navbar.Brand className='headerSection'>
+                <Navbar.Brand className='headerText'>
                     <h2>React Employee Directory</h2>
                     <p>Search by lowercase<br />Enter first name/lastname/PhoneNo.</p>
                 </Navbar.Brand>
