@@ -13,11 +13,9 @@
 
 ## Description
 
-Employee Directory application provides the user with 20 random employees from the random user api. The application uses react to render the table of employees and has sort preferences by a number of columns and search prefernces by a number of filters. The application has been deployed to heroku.
+Employee Directory application provides the user with 20 random employees from the random user api. The application uses react to render the table of employees and has sort preferences by a number of columns and search prefernces by a number of filters. The application has been deployed to github pages.
 
 ## Installation Instructions
-
-
 
 ## Usage Information
 
@@ -33,6 +31,8 @@ This project is licensed under the MIT license.
 
 Github:
 https://github.com/AlishaPanday/employee-directory <brr />
+
+Deployed Link: https://alishapanday.github.io/employee-directory/ <br />
 
 Email:
 panday.alisha90@gmail.com
